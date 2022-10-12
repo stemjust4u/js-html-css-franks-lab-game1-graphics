@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas1 {
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #4d79bc;
+    max-width: 100%; /*element will scale down to be visible*/
+    max-height: 100%;
+}
+/* hide image IDs so they don't show up in the web page background*/
+#layer1, #layer2, #layer3, #layer4, #player, #angler1, #angler2, #lucky {
+    display: none;
+}
